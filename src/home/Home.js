@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 import RealNavBar from '../components/RealNavbar'
-import ControlledCarousel from './Carousel'
+// import PauseOnHover from './Carousel';
+import CarouselPage from './Carousel';
 
 class HomePage extends Component {
     render() {
         return (
             <div>
                 <RealNavBar />
-                <ControlledCarousel />
+                {/* <PauseOnHover /> */}
+                <CarouselPage />
             </div>
         )
     }
