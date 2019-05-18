@@ -6,7 +6,7 @@ import './css/RealNavBar.css'
 class RealNavBar extends Component {
     render() {
       return (
-        <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+        <Navbar collapseOnSelect expand="lg" variant="light" className="navbar-color">
           <Navbar.Brand href="#home">
             <img src={require('./img/tewh.png')} alt="logo" />
               | Texas Engineering World Health
@@ -14,12 +14,12 @@ class RealNavBar extends Component {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="#features">Projects</Nav.Link>
-            <Nav.Link href="#pricing">Member Resources</Nav.Link>
-            <Nav.Link href="#pricing">Supporters</Nav.Link>
+            <Nav.Link href="/projects">Projects</Nav.Link>
+            <Nav.Link href="/mr">Member Resources</Nav.Link>
+            <Nav.Link href="/supporters">Supporters</Nav.Link>
           </Nav>
         <Nav>
-        <Nav.Link href="#deets">Contact</Nav.Link>
+        <Nav.Link href="/contact">Contact</Nav.Link>
         {/* <Nav.Link eventKey={2} href="#memes">
             Dank memes
         </Nav.Link> */}
