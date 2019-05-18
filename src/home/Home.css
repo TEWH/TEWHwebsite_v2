@@ -18,3 +18,18 @@
     background: #f0f0f0;
     font-size: 1.1em;
 }
+
+.dark-gray {
+    color: #707070;
+}
+
+.tile {
+    padding-top: 1em;
+    border-radius: .5em;
+}
+
+.tile:hover {
+    transition: .3s ease; /* delays for 1 second */
+    background-color: #e8eaf6;
+    font-size: 16px;
+}

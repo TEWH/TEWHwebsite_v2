@@ -17,8 +17,9 @@ library.add(faFacebookF)
 library.add(faLinkedinIn)
 library.add(faGithub)
 
-const Footer = () => {
-  return (
+class Footer extends Component {
+  render() {
+    return (
     <MDBFooter color="white text-dark" className="font-small pt-4 mt-4">
       <div className="text-center py-3">
         <h5 className="title center">Follow us on social media and Github!</h5>
@@ -41,7 +42,8 @@ const Footer = () => {
         </MDBContainer>
       </div>
     </MDBFooter>
-  );
+    );
+  }
 }
 
 export default Footer;
