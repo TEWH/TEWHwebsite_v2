@@ -6,3 +6,15 @@
     max-height:0;
 
 }
+
+#gray-box {
+    margin-top: 1em;
+    color: #505050;
+}
+
+#light-gray-box {
+    margin-top: 1em;
+    color: #505050;
+    background: #f0f0f0;
+    font-size: 1.1em;
+}

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import HomePage from './home/Home'
-import 'bootstrap/dist/css/bootstrap.css'
+import HomePage from './home/Home';
+import 'bootstrap/dist/css/bootstrap.css';
 import logo from './logo.svg';
 import './App.css';
 

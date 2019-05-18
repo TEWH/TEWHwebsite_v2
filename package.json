@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.18",
+    "@fortawesome/free-brands-svg-icons": "^5.8.2",
+    "@fortawesome/free-solid-svg-icons": "^5.8.2",
+    "@fortawesome/react-fontawesome": "^0.1.4",
     "bootstrap": "^4.3.1",
     "jquery": "^1.9.1",
     "mdbreact": "^4.14.0",
@@ -13,6 +17,7 @@
     "react-scripts": "2.1.8",
     "react-slack": "0.0.1",
     "react-slick": "^0.24.0",
+    "react-sticky-footer": "0.1.0-rc3",
     "slick-carousel": "^1.8.1",
     "typescript": "^3.4.3"
   },
