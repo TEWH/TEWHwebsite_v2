@@ -20,6 +20,9 @@ class App extends Component {
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route path="/supporters" component={Supporters} />
+          <Route path="/projects" component={Sample} />
+          <Route path="/mr" component={Sample} />
+          <Route path="/contact" component={Sample} />
         </Switch>
       </BrowserRouter>
     );
