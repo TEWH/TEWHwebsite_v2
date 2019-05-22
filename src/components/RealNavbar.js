@@ -7,7 +7,11 @@ class RealNavBar extends Component {
     render() {
       return (
         <Navbar collapseOnSelect expand="lg" variant="light" className="navbar-color">
-          <Navbar.Brand href="#home">
+          {/* <Navbar.Brand href="/">
+            <img src={require('./img/tewh.png')} alt="logo" />
+              {/* | Texas Engineering World Health */}
+          {/* </Navbar.Brand> */}
+          <Navbar.Brand href="/">
             <img src={require('./img/tewh.png')} alt="logo" />
               | Texas Engineering World Health
           </Navbar.Brand>
@@ -19,10 +23,10 @@ class RealNavBar extends Component {
             <Nav.Link href="/supporters">Supporters</Nav.Link>
           </Nav>
         <Nav>
-        <Nav.Link href="/contact">Contact</Nav.Link>
-        {/* <Nav.Link eventKey={2} href="#memes">
-            Dank memes
-        </Nav.Link> */}
+          <Nav.Link href="/contact">Contact</Nav.Link>
+          {/* <Nav.Link eventKey={2} href="#memes">
+              Dank memes
+          </Nav.Link> */}
         </Nav>
     </Navbar.Collapse>
     </Navbar>

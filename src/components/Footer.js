@@ -23,13 +23,13 @@ class Footer extends Component {
     <MDBFooter color="white text-dark" className="font-small pt-4 mt-4">
       <div className="text-center py-3">
         <h5 className="title center">Follow us on social media and Github!</h5>
-            <a href="#!" className="pr-3 text-dark">Facebook |&nbsp;
+            <a href="https://www.facebook.com/groups/TexasEWH/" className="pr-3 text-dark">Facebook |&nbsp;
               <FontAwesomeIcon icon={['fab', 'facebook-f']} />
             </a>
             <a href="#!" className="p-3 text-dark">Linkedin |&nbsp;
               <FontAwesomeIcon icon={['fab', 'linkedin-in']} />
             </a>
-            <a href="#!" className="p-3 text-dark">Github |&nbsp;
+            <a href="https://github.com/TEWH" className="p-3 text-dark">Github |&nbsp;
               <FontAwesomeIcon icon={['fab', 'github']} />
             </a>
             <a href="#!" className="p-3 text-dark">

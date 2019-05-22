@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { MDBMask, MDBView, MDBRow, MDBContainer } from "mdbreact";
-import RealNavBar from '../components/RealNavbar'
 import CarouselPage from './Carousel';
-import Footer from '../components/Footer'
 import './Home.css'
 
 class UpcomingEvent extends Component {
@@ -98,13 +96,11 @@ class HomePage extends Component {
     render() {
         return (
             <div>
-                <RealNavBar />
                 <UpcomingEvent />
                 <nextEvent />
                 <CarouselPage />
                 <Description />
                 <Links />
-                <Footer />
             </div>
         )
     }

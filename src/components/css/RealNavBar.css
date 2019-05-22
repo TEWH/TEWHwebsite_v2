@@ -3,9 +3,8 @@
     align-items: baseline;
   }
   .navbar-brand>img {
-    padding-right: 8px;
-    height: 23%;
-    width: 23%;
+    height: 2em;
+    padding-right: 0.4em;
   }
 
   .navbar-color {

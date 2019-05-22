@@ -5,6 +5,7 @@ import { MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDB
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
+import { createRequireFromPath } from "module";
 
 const CarouselPage = () => {
   return (
@@ -21,7 +22,7 @@ const CarouselPage = () => {
             <MDBView>
               <img
                 className="d-block w-100"
-                src="https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg"
+                src={require("./img/tabling.jpg")}
                 alt="First slide"
               />
             </MDBView>
