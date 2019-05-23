@@ -8,6 +8,7 @@ import RealNavBar from './components/RealNavbar'
 import Footer from './components/Footer'
 import HomePage from './home/Home';
 import Supporters from './supporters/Supporters'
+import Contact from './contact/contact'
 
 const Sample = () => {
   return (
@@ -26,7 +27,7 @@ class App extends Component {
             <Route path="/supporters" component={Supporters} />
             <Route path="/projects" component={Sample} />
             <Route path="/mr" component={Sample} />
-            <Route path="/contact" component={Sample} />
+            <Route path="/contact" component={Contact} />
           </Switch>
           <Footer />
         </div>
