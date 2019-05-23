@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { MDBMask, MDBView, MDBRow, MDBContainer } from "mdbreact";
 import RealNavBar from '../components/RealNavbar';
 import { Card, CardDeck } from 'react-bootstrap';
-import Footer from '../components/Footer'
 import './contact.css';
 
 
@@ -93,9 +92,9 @@ class Links extends Component {
             <MDBContainer className="text-left pt-4">
                 <MDBView>
                     <div className="row justify-content-md-center dark-gray">
-                        <div class="col-md-4 tile" align="center">
+                        <div class="pt-4 col-md-3" align="center">
                             <img
-                                className="d-block w-50 center"
+                                className="d-block w-75 center"
                                 src={require('./img/emily_300x300.jpg')}
                                 alt="Join TEWH"
                             ></img>
@@ -105,7 +104,7 @@ class Links extends Component {
                                 Contact info
                             </p>
                         </div>
-                        <div class="col-md-4 tile" align="center">
+                        <div class="col-md-3 tile" align="center">
                             <img
                                 className="d-block w-50 center"
                                 src={require('./img/emily_300x300.jpg')}
@@ -117,7 +116,7 @@ class Links extends Component {
                                 Contact info
                             </p>
                         </div>
-                        <div class="col-md-4 tile" align="center">
+                        <div class="col-md-3 tile" align="center">
                             <img
                                 className="d-block w-50 center"
                                 src={require('./img/emily_300x300.jpg')}
@@ -129,7 +128,7 @@ class Links extends Component {
                                 Contact info
                             </p>
                         </div>
-                        <div class="col-md-4 tile" align="center">
+                        <div class="col-md-3 tile" align="center">
                             <img
                                 className="d-block w-50 center"
                                 src={require('./img/emily_300x300.jpg')}
@@ -141,7 +140,7 @@ class Links extends Component {
                                 Contact info
                             </p>
                         </div>
-                        <div class="col-md-4 tile" align="center">
+                        <div class="col-md-3 tile" align="center">
                             <img
                                 className="d-block w-50 center"
                                 src={require('./img/emily_300x300.jpg')}
@@ -153,7 +152,7 @@ class Links extends Component {
                                 Contact info
                             </p>
                         </div>
-                        <div class="col-md-4 tile" align="center">
+                        <div class="col-md-3 tile" align="center">
                             <img
                                 className="d-block w-50 center"
                                 src={require('./img/emily_300x300.jpg')}
@@ -165,7 +164,7 @@ class Links extends Component {
                                 Contact info
                             </p>
                         </div>
-                        <div class="col-md-4 tile" align="center">
+                        <div class="col-md-3 tile" align="center">
                             <img
                                 className="d-block w-50 center"
                                 src={require('./img/emily_300x300.jpg')}
