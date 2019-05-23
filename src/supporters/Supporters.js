@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { MDBMask, MDBView, MDBRow, MDBContainer } from "mdbreact";
+import './supporters.css'
 
 class SupportUs extends Component {
     render() {
@@ -19,6 +20,8 @@ class SupportUs extends Component {
     }
 }
 
+
+
 class Supporters extends Component {
     render() {
         return (
@@ -28,6 +31,22 @@ class Supporters extends Component {
                 <h1 className="text-center alert">
                     Thank you to our generous supporters!
                 </h1>
+
+                <h3 className="supporter-name">
+                    Calvin Lau
+                </h3>
+
+                <h3 className="supporter-name">
+                    Lily Chen
+                </h3>
+
+                <h3 className="supporter-name">
+                    Sheryl Sabillo-Wiser
+                </h3>
+
+                <h3 className="supporter-name">
+                    Litao Wang
+                </h3>
 
                 </MDBContainer>
             </div>

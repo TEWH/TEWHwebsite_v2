@@ -26,7 +26,7 @@ class Footer extends Component {
             <a href="https://www.facebook.com/groups/TexasEWH/" className="pr-3 text-dark">Facebook |&nbsp;
               <FontAwesomeIcon icon={['fab', 'facebook-f']} />
             </a>
-            <a href="#!" className="p-3 text-dark">Linkedin |&nbsp;
+            <a href="http://www.linkedin.com/in/tewh" className="p-3 text-dark">Linkedin |&nbsp;
               <FontAwesomeIcon icon={['fab', 'linkedin-in']} />
             </a>
             <a href="https://github.com/TEWH" className="p-3 text-dark">Github |&nbsp;

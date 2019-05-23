@@ -19,6 +19,10 @@
     font-size: 1.1em;
 }
 
+.crop-image {
+    object-fit: contain;
+}
+
 .dark-gray {
     color: #707070;
 }
