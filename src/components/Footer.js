@@ -9,13 +9,14 @@ import 'mdbreact/dist/css/mdb.css';
 // Favicon imports
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebookF, faGit } from '@fortawesome/free-brands-svg-icons'
+import { faFacebookF, faGit, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 library.add(faFacebookF)
 library.add(faLinkedinIn)
 library.add(faGithub)
+library.add(faTwitter)
 
 class Footer extends Component {
   render() {
@@ -32,8 +33,8 @@ class Footer extends Component {
             <a href="https://github.com/TEWH" className="p-3 text-dark">Github |&nbsp;
               <FontAwesomeIcon icon={['fab', 'github']} />
             </a>
-            <a href="#!" className="p-3 text-dark">
-              Link 4
+            <a href="https://twitter.com/TexasEWH" className="p-3 text-dark">Twitter |&nbsp;
+              <FontAwesomeIcon icon={['fab', 'twitter']} />
             </a>
       </div>
       <div className="text-center py-3 text-dark">
