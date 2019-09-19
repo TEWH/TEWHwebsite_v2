@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import { MDBMask, MDBView, MDBRow, MDBContainer } from "mdbreact";
-import RealNavBar from '../components/RealNavbar';
-import { Card, CardDeck } from 'react-bootstrap';
+import { MDBView, MDBContainer } from "mdbreact";
 import './contact.css';
 
 class ContactInfo extends Component {
@@ -20,9 +18,9 @@ class ContactInfo extends Component {
                 </h2>
                 <h6>
                     Follow us on our&nbsp;
-                    <a href="https://www.facebook.com/groups/TexasEWH/">Facebook</a>, 
-                    <a href="http://www.linkedin.com/in/tewh"> LinkedIn</a>, or 
-                    <a href="https://twitter.com/TexasEWH"> Twitter</a> pages 
+                    <a href="https://www.facebook.com/groups/TexasEWH/" target="_blank">Facebook</a>, 
+                    <a href="http://www.linkedin.com/in/tewh" target="_blank"> LinkedIn</a>, or 
+                    <a href="https://twitter.com/TexasEWH" target="_blank"> Twitter</a> pages 
                     for event notifications and updates!
                 </h6>
                 <p><br></br></p>

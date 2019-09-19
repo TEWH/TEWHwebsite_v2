@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { MDBMask, MDBView, MDBRow, MDBContainer } from "mdbreact";
+import { MDBView, MDBContainer } from "mdbreact";
 import CarouselPage from './Carousel';
 import './Home.css'
 
@@ -58,7 +58,7 @@ class Links extends Component {
                             <h4 className="p-4">Join Us.</h4>
                             <p>
                                 Want to learn more about medical devices? TEWH is a great
-                                way to get started. Come to our meetings or join online.
+                                way to get started. Come to our meetings or contact us on our Contact page.
                             </p>
                         </div>
                         <div class="col-sm-3 offset-md-1 tile" align="center">
@@ -69,8 +69,8 @@ class Links extends Component {
                             ></img>
                             <h4 className="p-4">Learn About Our Projects.</h4>
                             <p>
-                                Take a look at our current project, and some of our previous
-                                ones.
+                                Take a look at our current project and some of our previous
+                                ones on our Projects page.
                             </p>
                         </div>
                         <div class="col-sm-3 offset-md-1 tile" align="center">
@@ -82,7 +82,7 @@ class Links extends Component {
                             <h4 className="p-4">Show Your Support.</h4>
                             <p>
                                 If you'd like to support the development of medical devices 
-                                for the developing world, we'd love your help!
+                                for the developing world, we'd love your help! Contact us on our Contact page.
                             </p>
                         </div>
                     </div>
@@ -96,7 +96,6 @@ class HomePage extends Component {
     render() {
         return (
             <div>
-                <UpcomingEvent />
                 <nextEvent />
                 <CarouselPage />
                 <Description />

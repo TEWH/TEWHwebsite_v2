@@ -9,6 +9,8 @@ import Footer from './components/Footer'
 import HomePage from './home/Home';
 import Supporters from './supporters/Supporters'
 import Contact from './contact/contact'
+import Projects from './projects/Projects';
+import member_resources from './member_resources/member_resources';
 
 const Sample = () => {
   return (
@@ -25,8 +27,8 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={HomePage} />
             <Route path="/supporters" component={Supporters} />
-            <Route path="/projects" component={Sample} />
-            <Route path="/mr" component={Sample} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/mr" component={member_resources} />
             <Route path="/contact" component={Contact} />
           </Switch>
           <Footer />
