@@ -29,6 +29,11 @@ class Resources extends Component {
                 <h5><ul>
                     <li>Make a student account for <a href="https://www.autodesk.com/products/fusion-360/students-teachers-educators" target="_blank">Fusion 360 </a>and follow the steps to download<p></p></li>
                 </ul></h5>
+
+                <h4><p></p>For Machine Learning:</h4>
+                <h5><ul>
+                    <li>Download the <a href="https://www.anaconda.com/distribution/" target="_blank">Anaconda</a> package for Python/R data science and machine learning<p></p></li>
+                </ul></h5>
                 </MDBContainer>
             </div>
         );
